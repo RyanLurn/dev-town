@@ -2,14 +2,14 @@ name: Code quality check
 
 on:
   push:
-    branches: [main]
+    branches: [main, consumer-journey]
     paths-ignore:
       - ".gitignore"
       - ".gitattributes"
       - ".env.example"
       - "**/*.md"
   pull_request:
-    branches: [main]
+    branches: [main, consumer-journey]
     paths-ignore:
       - ".gitignore"
       - ".gitattributes"
