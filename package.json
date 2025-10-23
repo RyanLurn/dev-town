@@ -7,7 +7,8 @@
     "format": "bunx biome format --write",
     "lint": "bunx biome lint --write",
     "check": "bunx biome check --write",
-    "web:dev": "bun --filter @repo/web dev"
+    "web:dev": "bun --filter @repo/web dev",
+    "web:install": "bun install --filter @repo/web"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.7",
