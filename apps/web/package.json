@@ -1,0 +1,10 @@
+{
+  "name": "@repo/web",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "catalog:types",
+    "typescript": "catalog:types"
+  }
+}
